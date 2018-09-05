@@ -35,7 +35,7 @@ if __name__ == '__main__':
 
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='utf8')
 
-    instance = Aikuai('yeyanbo', 'admin@123')
+    instance = Aikuai('yexx', 'axdmxin@x!1xxxx')
     login_url = 'http://192.168.102.1/login/x'
     headers = {'User-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36'}
     opener =  instance.get_opener(login_url, headers)
